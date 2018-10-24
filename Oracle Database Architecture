@@ -1,0 +1,6 @@
+Database and Instance
+An Oracle database server consists of a database and at least one database instance, commonly referred to as simply an instance. Because an instance and a database are so closely connected, the term Oracle database is sometimes used to refer to both instance and database.
+Database
+A database is a set of files, located on disk, that store data. These files can exist independently of a database instance.
+Database instance
+An instance is a set of memory structures that manage database files. The instance consists of a shared memory area, called the system global area (SGA), and a set of background processes. An instance can exist independently of database files.
