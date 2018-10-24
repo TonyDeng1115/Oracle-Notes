@@ -1,0 +1,12 @@
+Transactions
+A transaction is a logical, atomic unit of work that contains one or more SQL statements.
+The basic principle of a transaction is "all or nothing": an atomic operation succeeds or fails as a whole.
+
+Data Concurrency
+Data concurrency is the simultaneous access of the same data by multiple users.
+Locks help ensure data integrity while allowing maximum concurrent access to data
+
+Data Consistency
+Each user must see a consistent view of the data, including visible changes made by a user's own transactions and committed transactions of other users.
+Oracle Database always enforces statement-level read consistency, which guarantees that the data that a single query returns is committed and consistent for a single point in time.
+The database can also provide read consistency to all queries in a transaction, known as transaction-level read consistency.
